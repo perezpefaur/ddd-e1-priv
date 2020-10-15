@@ -3,6 +3,7 @@ source 'https://rubygems.org'
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
 ruby '2.6.5'
+
 gem 'devise', '~> 4.2'
 gem 'irb', '~> 1.2', '>= 1.2.7'
 

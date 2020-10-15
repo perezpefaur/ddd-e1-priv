@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Mychat</title>
+    <title>BTF Exchange</title>
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
 
@@ -12,6 +12,10 @@
   </head>
 
   <body>
+    <%= render partial: "layouts/header" %>
+
     <%= yield %>
+
+    <%= render partial: "layouts/footer" %>
   </body>
 </html>

@@ -1,24 +1,22 @@
-# README
+# Repo Base
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Before installation
 
-Things you may want to cover:
+Tener:
+Ruby 2.6.5
+Rails 6.0
 
-* Ruby version
+## Local installation
 
-* System dependencies
+Clona el repositorio a tu computador y correr el siguente codigo:
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+    $ bundle install
+    $ yarn install --check-files
+    $ rails db:create
+    $ rails db:migrate
+Para crear cuentas:
+    $ gem install mailcatcher
+    $ mailcatcher
+En volada tengan que correr:
+$ yarn add bootstrap
+$ yarn add jquery popper.js
